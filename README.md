@@ -3,9 +3,9 @@ jekyll-yuml
 
 # Jekyll yuml Plugin
 
-[yuml][] (DIagrams Through yuml.me) is
+[yuml][] (Diagrams Through yuml.me) is
 
->Create and share simple UML diagrams in your 
+>Create and share simple UML diagrams in your
 >blogs, wikis, forums, bug-trackers and emails.
 
 This plugin allows you to write yuml markup within a yuml block, generate the
@@ -34,9 +34,7 @@ Once installed `yuml` blocks with yuml markup can be inserted:
     [b]-[c]
     {% endyuml %}
 
-When re-generating the site, the generated image is inserted into the page:
-
-![yuml output](https://github.com/kikitux/jekyll-yuml/blob/master/sample.png?raw=true)
+When re-generating the site, the generated image is inserted into the page.
 
 yuml options can be passed through the tag:
 
@@ -45,4 +43,4 @@ yuml options can be passed through the tag:
     {% endyuml %}
 
 _Note_: If you haven't auto-regenerate enabled, the images might not get copied.
-In this case you have to run a second Jekyll pass. 
+In this case you have to run a second Jekyll pass.
